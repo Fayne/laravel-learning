@@ -1,12 +1,47 @@
+# Numerous always-ignore extensions
 .gitignore
+.gitattributes
+*.txt
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+
 tmp/*
 laravel/*
-[Cc]onfig/core.php
 config/database.php
-[Cc]onfig/database.php
-app/tmp/*
-app/[Cc]onfig/core.php
-app/[Cc]onfig/database.php
 !empty
 *.jpg
 *.jpeg
