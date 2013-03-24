@@ -1,4 +1,5 @@
 tmp/*
+laravel/*
 [Cc]onfig/core.php
 config/database.php
 [Cc]onfig/database.php
