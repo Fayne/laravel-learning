@@ -1,0 +1,49 @@
+# Numerous always-ignore extensions
+.gitignore
+.gitattributes
+*.txt
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+
+# Dreamweaver added files
+_notes
+dwsync.xml
+
+# Komodo
+*.komodoproject
+.komodotools
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+intermediate
+publish
+.idea
+
+tmp/*
+laravel/*
+config/database.php
+!empty
+*.jpg
+*.jpeg
+*.gif
+*.png
