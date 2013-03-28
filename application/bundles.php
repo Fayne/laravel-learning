@@ -35,6 +35,8 @@
 
 return array(
 
-	'docs' => array('handles' => 'docs'),
+	'docs' 		=> array('handles' => 'docs'),
+	// 'verify'    => array('auto'    => true),
+	'orchestra' => array('auto' => true, 'handles' => 'admin'),
 
 );

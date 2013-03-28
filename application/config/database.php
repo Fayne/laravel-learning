@@ -70,7 +70,7 @@ return array(
 		'mysql' => array(
 			'driver'   => 'mysql',
 			'host'     => '127.0.0.1',
-			'database' => 'laravel',
+			'database' => 'test_laravel_db',
 			'username' => 'root',
 			'password' => 'root',
 			'charset'  => 'utf8',
